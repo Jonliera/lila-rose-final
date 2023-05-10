@@ -6,7 +6,7 @@ const Carousel = () => {
       <div className="carousel w-9/12">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+            src="https://images.unsplash.com/uploads/1411068785961ec3bb1a3/4662610e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -20,7 +20,7 @@ const Carousel = () => {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            src="https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
