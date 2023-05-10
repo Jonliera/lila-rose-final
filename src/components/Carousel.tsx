@@ -3,7 +3,7 @@ import React from "react";
 const Carousel = () => {
   return (
     <div className="flex items-center justify-center bg-base-200">
-      <div className="carousel w-9/12">
+      <div className="carousel w-6/12">
         <div id="slide1" className="carousel-item relative w-full">
           <img
             src="https://images.unsplash.com/uploads/1411068785961ec3bb1a3/4662610e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
