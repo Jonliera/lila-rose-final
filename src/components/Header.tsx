@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="navbar bg-primary text-primary-content">
+    <div className="navbar bg-primary text-primary-content ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,9 +32,6 @@ const Header = () => {
               <a className="justify-between">Our Hats</a>
             </li>
             <li tabIndex={0}>
-              <a className="justify-between">Your Styles</a>
-            </li>
-            <li tabIndex={0}>
               <a className="justify-between">About Us</a>
             </li>
           </ul>
@@ -49,11 +46,6 @@ const Header = () => {
           <li tabIndex={0}>
             <a href="#styles" className="justify-between">
               Our Hats{" "}
-            </a>
-          </li>
-          <li tabIndex={0}>
-            <a href="#styles" className="justify-betwwen">
-              Your Styles
             </a>
           </li>
           <li tabIndex={0}>
