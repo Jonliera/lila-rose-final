@@ -29,10 +29,14 @@ const Header = () => {
               <a>Home</a>
             </li>
             <li tabIndex={0}>
-              <a className="justify-between">Our Hats</a>
+              <a href="#hats" className="justify-between">
+                Our Hats
+              </a>
             </li>
             <li tabIndex={0}>
-              <a className="justify-between">About Us</a>
+              <a href="#about" className="justify-between">
+                About Us
+              </a>
             </li>
           </ul>
         </div>
@@ -44,7 +48,7 @@ const Header = () => {
             <a>Home</a>
           </li>
           <li tabIndex={0}>
-            <a href="#styles" className="justify-between">
+            <a href="#hats" className="justify-between">
               Our Hats{" "}
             </a>
           </li>
