@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import About from "@/components/About";
+import Link from "next/link";
 
 export default function Home() {
   return (
