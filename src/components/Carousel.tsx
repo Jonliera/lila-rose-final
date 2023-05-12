@@ -34,7 +34,7 @@ const Carousel = () => {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img
-            src="/images/stock/photo-1414694762283-acccc27bca85.jpg"
+            src="https://img.freepik.com/free-photo/pretty-mixed-race-woman-with-short-hair-autumn-outwear-hat_633478-1964.jpg?w=2000&t=st=1683917642~exp=1683918242~hmac=33e1f0abbedd441efa4a155879aefe0f77bb2e9021ec1f75948b60d891df17d2"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -48,7 +48,7 @@ const Carousel = () => {
         </div>
         <div id="slide4" className="carousel-item relative w-full">
           <img
-            src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+            src="https://img.freepik.com/free-photo/front-view-smiley-woman-wearing-hat_23-2149729300.jpg?w=2000&t=st=1683917757~exp=1683918357~hmac=55def6251b07213ba9c4308380ffc2f6f8abc115b30b19bafed38ab3861bf949"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
