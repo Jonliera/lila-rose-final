@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import About from "@/components/About";
 import Link from "next/link";
+import Login from "@/components/Login";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Products />
       <About />
       <Footer />
+      <Login />
     </>
   );
 }
