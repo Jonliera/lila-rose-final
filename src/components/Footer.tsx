@@ -4,31 +4,31 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
       <div>
-        <span className="footer-title">Company</span>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <span className="footer__title footer-title">Lila & Rose </span>
+        <a href="/about" className="footer_link link link-hover">
+          About us
+        </a>
+        <a className="footer__link link link-hover">Contact</a>
       </div>
       <div>
-        <span className="footer-title">Legal</span>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
+        <span className="footer__title footer-title">Legal</span>
+        <a className="footer__link link link-hover">Terms of use</a>
       </div>
       <div>
-        <span className="footer-title">Newsletter</span>
-        <div className="form-control w-80">
-          <label className="label">
-            <span className="label-text">Enter your email address</span>
+        <span className="footer__title footer-title">Newsletter</span>
+        <div className="footer__form form-control w-80">
+          <label className="footer__form- label label">
+            <span className="footer__form-text label-text">
+              Enter your email address
+            </span>
           </label>
           <div className="relative">
             <input
               type="text"
               placeholder="username@site.com"
-              className="input input-bordered w-full pr-16"
+              className="footer__input input input-bordered w-full pr-16"
             />
-            <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
+            <button className="footer__btn btn btn-primary absolute top-0 right-0 rounded-l-none">
               Subscribe
             </button>
           </div>

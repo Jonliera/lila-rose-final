@@ -1,14 +1,14 @@
 import React from "react";
-import Products from "@/components/Products";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import About from "@/components/About";
 
-const ProductsPage = () => {
+const AboutUs = () => {
   return (
     <div>
       <Header />
-      <Products />
+      <About />
       <div className="flex justify-center mt-4">
         <Link href="/">
           <span className="text-xl font-semibold border-b-2 border-gray-500 hover:border-gray-700">
@@ -21,4 +21,4 @@ const ProductsPage = () => {
   );
 };
 
-export default ProductsPage;
+export default AboutUs;
