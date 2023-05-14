@@ -32,11 +32,14 @@ const Products = () => {
   };
 
   return (
-    <div className="max-w-21 mx-auto py-16 px-4 sm:py-24 sm:px-6">
-      <h1 id="hats" className="text-4xl font-bold mb-8 text-center">
+    <div className="products max-w-21 mx-auto py-16 px-4 sm:py-24 sm:px-6">
+      <h1
+        id="hats"
+        className="products__text text-4xl font-bold mb-8 text-center"
+      >
         Our Hats
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
+      <div className="prodcuts__size grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
         {loading ? (
           <p>Loading...</p>
         ) : (

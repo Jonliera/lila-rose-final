@@ -9,9 +9,9 @@ const AboutUs = () => {
     <div>
       <Header />
       <About />
-      <div className="flex justify-center mt-4">
+      <div className="aboutUs flex justify-center mt-4">
         <Link href="/">
-          <span className="text-xl font-semibold border-b-2 border-gray-500 hover:border-gray-700">
+          <span className="aboutUs__link text-xl font-semibold border-b-2 border-gray-500 hover:border-gray-700">
             &larr; Back to Home
           </span>
         </Link>

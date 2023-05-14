@@ -50,24 +50,30 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="flex-shrink-0">
+    <div className="productsDetails max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <div className="products_Details__info flex flex-col md:flex-row items-center">
+        <div className="">
           <img
-            className="h-96 w-auto"
+            className="productsDetail__image h-96 w-auto"
             src={product.ImageSrc}
             alt={product.Title}
           />
         </div>
-        <div className="md:ml-6 mt-4 md:mt-0">
-          <h2 className="text-3xl font-bold mb-2">{product.Title}</h2>
-          <p className="text-2xl mb-4">{product.Price}</p>
-          <p className="text-lg mb-4">{product.Description}</p>
+        <div className="productsDetails__spacing md:ml-6 mt-4 md:mt-0">
+          <h2 className="productsDetails__title text-3xl font-bold mb-2">
+            {product.Title}
+          </h2>
+          <p className="productsDetails__price text-2xl mb-4">
+            {product.Price}
+          </p>
+          <p className="tproductsDetails__description text-lg mb-4">
+            {product.Description}
+          </p>
         </div>
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="productsDetails__link flex justify-center mt-4">
         <Link href="/products">
-          <span className="text-xl font-semibold border-b-2 border-gray-500 hover:border-gray-700">
+          <span className="productsDetails__btn text-xl font-semibold border-b-2 border-gray-500 hover:border-gray-700">
             &larr; Back to Products
           </span>
         </Link>
