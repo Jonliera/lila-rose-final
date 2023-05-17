@@ -21,4 +21,5 @@ function MyApp({
     </SessionContextProvider>
   );
 }
+
 export default MyApp;
