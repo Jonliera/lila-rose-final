@@ -67,7 +67,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="header_navbar navbar-end">
-        <a className="header__loginbtn btn bg-secondary">Login</a>
+        <a className="header__loginbtn btn rounde-md border border-solid border-blue-500">
+          Login
+        </a>
       </div>
     </div>
   );

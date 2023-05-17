@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="about max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-      <div className="about__container bg-white overflow-hidden shadow-sm sm:rounded-lg">
-        <div className="about__content p-6 bg-white border-b border-gray-200">
+      <div className="about__container overflow-hidden shadow-sm sm:rounded-lg">
+        <div className="about__content p-6 ">
           <h1 id="about" className="about__title text-4xl font-bold mb-4">
             About Us
           </h1>

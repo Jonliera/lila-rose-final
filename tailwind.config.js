@@ -6,13 +6,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { sans: ["poppins", "sans-serif"] },
+    },
   },
   daisyui: {
     themes: [
       {
         mytheme: {
-          primary: "#bdbff9",
+          primary: "#F7E1AE",
 
           secondary: "#88ef28",
 
@@ -20,9 +22,9 @@ module.exports = {
 
           neutral: "#1B232C",
 
-          "base-100": "#253350",
+          "base-100": "#FFFFFF",
 
-          info: "#54AAC9",
+          info: "#F7E1AE",
 
           success: "#43DF99",
 

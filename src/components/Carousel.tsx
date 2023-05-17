@@ -2,8 +2,8 @@ import React from "react";
 
 const Carousel = () => {
   return (
-    <div className="carousel flex items-center justify-center bg-base-200">
-      <div className="carousel_container carousel w-6/12">
+    <div className="carousel flex items-center justify-center">
+      <div className="carousel_container carousel w-5/12">
         <div
           id="slide1"
           className="carousel__item carousel-item relative w-full"

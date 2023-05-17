@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero max-h-screen bg-base-200">
+    <div className="hero max-h-screen">
       <div className="hero__content hero-content text-center mt-10">
-        <div className="hero__content-inner max-w-lg">
+        <div className="hero__content-inner ">
           <h1 className="hero__heading text-5xl font-bold">
             Welcome to Lila & Rose
           </h1>
