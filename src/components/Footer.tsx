@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content">
+    <footer className="footer p-10 bg-primary text-base-content">
       <div>
         <span className="footer__title footer-title">Lila & Rose </span>
         <a href="/about" className="footer_link link link-hover">
@@ -17,7 +17,7 @@ const Footer = () => {
       <div>
         <span className="footer__title footer-title">Newsletter</span>
         <div className="footer__form form-control w-80">
-          <label className="footer__form- label label">
+          <label className="footer__form- label">
             <span className="footer__form-text label-text">
               Enter your email address
             </span>

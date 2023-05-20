@@ -67,8 +67,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="header_navbar navbar-end">
-        <a className="header__loginbtn btn rounde-md border border-solid border-blue-500">
-          Login
+        <a
+          href="login"
+          className="header__loginbtn btn rounded-md bg-green-200 text-white border border-solid border-green-200 hover:bg-green-300 hover:border-green-300 transition-colors duration-300"
+        >
+          Login / Sign Up
         </a>
       </div>
     </div>
