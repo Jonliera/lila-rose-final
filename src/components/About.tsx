@@ -10,9 +10,9 @@ const About = () => {
           </h1>
           <p className="about__text text-lg">
             Welcome to our online store! We are dedicated to providing you with
-            the best selection of hats for any occasion. Whether you're looking
-            for a stylish accessory or protection from the sun, we have the
-            perfect hat for you.
+            the best selection of hats for any occasion. Whether you&apos;re
+            looking for a stylish accessory or protection from the sun, we have
+            the perfect hat for you.
           </p>
           <p className="about__text text-lg mt-4">
             Our team of hat enthusiasts carefully curates each product, ensuring
