@@ -17,7 +17,7 @@ export default function Account({ session }: { session: Session }) {
 
   useEffect(() => {
     getProfile();
-  }, [user]);
+  }, [session]);
 
   async function getProfile() {
     try {

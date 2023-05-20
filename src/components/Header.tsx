@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Header = () => {
   return (
     <div className="header navbar bg-primary text-primary-content ">
@@ -26,53 +26,53 @@ const Header = () => {
             className="header__menu menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/" className="header__link justify-between">
+              <Link href="/" className="header__link justify-between">
                 Home
-              </a>
+              </Link>
             </li>
             <li tabIndex={0}>
-              <a href="products" className="header__link justify-between">
+              <Link href="products" className="header__link justify-between">
                 Our Hats
-              </a>
+              </Link>
             </li>
             <li tabIndex={0}>
-              <a href="about" className="header__link justify-between">
+              <Link href="about" className="header__link justify-between">
                 About Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
-        <a
+        <Link
           href="/"
           className="header__logobtn btn btn-ghost normal-case text-xl"
         >
           Lila & Rose
-        </a>
+        </Link>
       </div>
       <div className="header__navbar navbar-center hidden lg:flex">
         <ul className="header__menu menu menu-horizontal px-1">
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li tabIndex={0}>
-            <a href="products" className="header__link justify-between">
+            <Link href="products" className="header__link justify-between">
               Our Hats{" "}
-            </a>
+            </Link>
           </li>
           <li tabIndex={0}>
-            <a href="about" className="header__link justify-between">
+            <Link href="about" className="header__link justify-between">
               About Us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="header_navbar navbar-end">
-        <a
+        <Link
           href="login"
           className="header__loginbtn btn rounded-md bg-green-200 text-white border border-solid border-green-200 hover:bg-green-300 hover:border-green-300 transition-colors duration-300"
         >
           Login / Sign Up
-        </a>
+        </Link>
       </div>
     </div>
   );

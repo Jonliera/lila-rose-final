@@ -1,13 +1,14 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-primary text-base-content">
       <div>
         <span className="footer__title footer-title">Lila & Rose </span>
-        <a href="/about" className="footer_link link link-hover">
+        <Link href="/about" className="footer_link link link-hover">
           About us
-        </a>
+        </Link>
         <a className="footer__link link link-hover">Contact</a>
       </div>
       <div>
