@@ -25,9 +25,7 @@ const Products = () => {
       const { data, error } = await supabase.from("hats_info").select("*");
       if (error) throw error;
       setProductsInfo(data);
-    } catch (error) {
-      alert(error.message);
-    }
+    } catch (error) {}
     setLoading(false);
   };
 

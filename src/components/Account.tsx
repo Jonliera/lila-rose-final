@@ -58,8 +58,7 @@ export default function Account({ session }: { session: Session }) {
         updated_at: new Date().toISOString(),
       };
 
-      let { error } = await supabase.from("profiles");
-      if (error) throw error;
+      let {} = await supabase.from("profiles");
       alert("Profile updated!");
     } catch (error) {
       alert("Error updating the data!");

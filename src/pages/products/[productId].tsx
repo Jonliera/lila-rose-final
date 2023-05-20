@@ -9,6 +9,7 @@ interface Product {
   ImageSrc: string | null;
   Price: string | null;
   Title: string | null;
+  Description: string | null;
 }
 
 const ProductPage = () => {
@@ -35,10 +36,11 @@ const ProductPage = () => {
 
       if (error) throw error;
       setProduct(data);
-    } catch (error) {
-      alert(error.message);
+    } catch (error: any) {
+      alert(error.message || "An error occurred");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   if (loading) {
@@ -53,21 +55,23 @@ const ProductPage = () => {
     <div className="productsDetails max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div className="products_Details__info flex flex-col md:flex-row items-center">
         <div className="">
-          <img
-            className="productsDetail__image h-96 w-auto"
-            src={product.ImageSrc}
-            alt={product.Title}
-          />
+          {product.ImageSrc && (
+            <img
+              className="productsDetail__image h-96 w-auto"
+              src={product.ImageSrc}
+              alt={product.Title || ""}
+            />
+          )}
         </div>
         <div className="productsDetails__spacing md:ml-6 mt-4 md:mt-0">
           <h2 className="productsDetails__title text-3xl font-bold mb-2">
-            {product.Title}
+            {product.Title || ""}
           </h2>
           <p className="productsDetails__price text-2xl mb-4">
-            {product.Price}
+            {product.Price || ""}
           </p>
           <p className="tproductsDetails__description text-lg mb-4">
-            {product.Description}
+            {product.Description || ""}
           </p>
         </div>
       </div>
