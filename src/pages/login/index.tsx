@@ -18,7 +18,7 @@ const Login = () => {
           <div className="mx-auto py-16">
             {!session ? (
               <Auth
-                providers={["google", "github"]}
+                providers={["google"]}
                 supabaseClient={supabase}
                 appearance={{ theme: ThemeSupa }}
                 theme="dark"
