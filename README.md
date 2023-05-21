@@ -2,20 +2,28 @@
 
 #### Lila & Rose is a webpage for hat lovers.
 
-#### By Jonathan Liera
+---
 
-#### <u>Table of Contents</u>
+## Authored By:
 
-- <a href="#description">Description</a>
-- <a href="#technologies use">Technologies Used</a>
-- <a href="#setupinstallation-requirements">Setup/Installation Requirements</a>
-- <a href="#downloading-the-repo">Downloading the Repo</a>
-- <a href="#installing-dependencies">Installing Dependencies</a>
-- <a href="#adding-api-key">Adding API Key</a>
-- <a href="#adding-supabase-config">Adding Supabase Config</a>
-- <a href="#known-bugs">Known Bugs</a>
-- <a href="#contact-information">Contact Information</a>
-- <a href="#appendix">Appendix</a>
+Jonathan Liera May 2023
+
+---
+
+## Table of Contents
+
+1. [Description](#Description)
+2. [Technologies Used](#technologies-used)
+3. [Setup/Instructions Requirements](#installation-and-setup)
+4. [Downloading the Repo](#Downloading-the-repo)
+5. [Installing Dependencies](#Installing-dependencies)
+6. [Adding API Key](#Adding-api_key)
+7. [Adding Supabase Config](#Adding-supabase-config)
+8. [Known Bugs](#known-bugs)
+9. [License Information](#License)
+10. [Contact Information](#Contact Information)
+
+---
 
 ## Description
 
@@ -23,11 +31,44 @@ Lila & Rose
 
 ## Technologies Used
 
+- _React_
+- _NextJS_
+- _Typescript_
+- _DaisyUI_
+- _Supabase_
+- _Node.js_
+- _Visual Studio Code_
+- _Github_
+- _Markdown_
+
+  ***
+
 ## Setup/Installation Requirements
 
-## Downloading the Repo
+### Downloading the Repo
+
+1. Clone this repository to your desktop.
+
+   ```
+   git clone https://github.com/Jonliera/lila-rose-final.git
+   ```
+
+   - Or download as a zip file
+
+- Click the green code button on the repository page
+- At the bottom of the popup window select `Download ZIP`
+- Extract the downloaded .zip folder
+
+2. Navigate to the projects root directory by entering `$cd inventory-tracker`
+3. Install all dependencies by entering `$ nmp install`
+4. Run the application by entering `$ npm run start`
 
 ## Installing Dependencies
+
+1. Make sure you have [Node.js](https://nodejs.org/en/download/) installed
+2. Navigate to the projects root directory by entering `$cd inventory-tracker`
+3. Install all dependencies by entering `$ nmp install`
+4. Run the application by entering `$ npm run start`
 
 ## Adding API key
 
