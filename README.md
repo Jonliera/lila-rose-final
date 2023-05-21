@@ -1,3 +1,46 @@
+# Lila & Rose
+
+#### Lila & Rose is a webpage for hat lovers.
+
+#### By Jonathan Liera
+
+#### <u>Table of Contents</u>
+
+- <a href="#description">Description</a>
+- <a href="#technologies use">Technologies Used</a>
+- <a href="#setupinstallation-requirements">Setup/Installation Requirements</a>
+- <a href="#downloading-the-repo">Downloading the Repo</a>
+- <a href="#installing-dependencies">Installing Dependencies</a>
+- <a href="#adding-api-key">Adding API Key</a>
+- <a href="#adding-supabase-config">Adding Supabase Config</a>
+- <a href="#known-bugs">Known Bugs</a>
+- <a href="#contact-information">Contact Information</a>
+- <a href="#appendix">Appendix</a>
+
+## Description
+
+Lila & Rose
+
+## Technologies Used
+
+## Setup/Installation Requirements
+
+## Downloading the Repo
+
+## Installing Dependencies
+
+## Adding API key
+
+## Adding Supabase config
+
+## Known Bugs
+
+## License
+
+## Contact Information
+
+## Appendix
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
